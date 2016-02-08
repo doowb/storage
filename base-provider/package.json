@@ -1,0 +1,33 @@
+{
+  "name": "base-provider",
+  "description": "Base methods and functionality for storage provider implementations.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/node-base/base-provider",
+  "author": "Brian Woodward (https://github.com/doowb)",
+  "repository": "node-base/base-provider",
+  "bugs": {
+    "url": "https://github.com/node-base/base-provider/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "lib/"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "base": "^0.6.7",
+    "extend-shallow": "^2.0.1",
+    "lazy-cache": "^1.0.3"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "keywords": []
+}
